@@ -1,0 +1,29 @@
+{
+  "generationParameters": {
+    "generationDate": "Tue Aug 18 2026 08:33:52 GMT+0000 (Coordinated Universal Time)",
+    "generatorPlatform": "SAP Business Application Studio",
+    "serviceType": "SAP System (ABAP On-Premise)",
+    "metadataFilename": "",
+    "serviceUrl": "http://s4dev.sap.sce.com:443/sap/opu/odata4/sap/zui_fin3001_recon_o4/srvd/sap/zui_fin3001_recon/0001/",
+    "appName": "zfin_s4hanapowerplanreconcile",
+    "appTitle": "App Title",
+    "appDescription": "An SAP Fiori application.",
+    "appNamespace": "com.sce",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.120.14",
+    "enableEslint": true,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.30.0",
+    "template": "List Report Page V4",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "Reconciliations"
+      }
+    ],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```",
+    "valueHelpDownloaded": true
+  }
+}

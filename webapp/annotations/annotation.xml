@@ -1,0 +1,87 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata4/sap/zui_fin3001_recon_o4/srvd/sap/zui_fin3001_recon/0001/$metadata">
+        <edmx:Include Namespace="com.sap.gateway.srvd.zui_fin3001_recon.v0001" Alias="SAP__self"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
+            <Annotations Target="SAP__self.ReconciliationsType">
+                <Annotation Term="UI.FieldGroup" Qualifier="GeneratedGroup">
+                    <Record Type="UI.FieldGroupType">
+                        <PropertyValue Property="Data">
+                            <Collection>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="ReconciliationDate"/>
+                                    <PropertyValue Property="Value" Path="ReconciliationDate"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="Direction"/>
+                                    <PropertyValue Property="Value" Path="Direction"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="CompanyCode"/>
+                                    <PropertyValue Property="Value" Path="CompanyCode"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="SapDocumentCount"/>
+                                    <PropertyValue Property="Value" Path="SapDocumentCount"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="PowerPlanDocumentCount"/>
+                                    <PropertyValue Property="Value" Path="PowerPlanDocumentCount"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="SapDebit"/>
+                                    <PropertyValue Property="Value" Path="SapDebit"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="SapCredit"/>
+                                    <PropertyValue Property="Value" Path="SapCredit"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="PowerPlanDebit"/>
+                                    <PropertyValue Property="Value" Path="PowerPlanDebit"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="PowerPlanCredit"/>
+                                    <PropertyValue Property="Value" Path="PowerPlanCredit"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="SapNetBalance"/>
+                                    <PropertyValue Property="Value" Path="SapNetBalance"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="PowerPlanNetBalance"/>
+                                    <PropertyValue Property="Value" Path="PowerPlanNetBalance"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="ClearingBalance"/>
+                                    <PropertyValue Property="Value" Path="ClearingBalance"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="Currency"/>
+                                    <PropertyValue Property="Value" Path="Currency"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Label" String="ReconciliationStatus"/>
+                                    <PropertyValue Property="Value" Path="ReconciliationStatus"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.Facets">
+                    <Collection>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="ID" String="GeneratedFacet1"/>
+                            <PropertyValue Property="Label" String="General Information"/>
+                            <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#GeneratedGroup"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
